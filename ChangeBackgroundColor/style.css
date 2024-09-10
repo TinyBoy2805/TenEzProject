@@ -1,0 +1,40 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   min-height: 100vh;
+
+}
+
+button
+{
+    background-color: #fafafa;
+    position: fixed;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px black;
+}
+
+button:active
+{
+    transform: translate(5px ,5px);
+    box-shadow: none;
+}
+
+#show
+{
+    position: fixed;
+    top: 30vh;
+    font-size: 30px;
+    font-weight: bold;
+}

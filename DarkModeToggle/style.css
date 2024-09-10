@@ -1,0 +1,43 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   color: black;
+   min-height: 100vh;
+
+}
+
+#container
+{
+    position: absolute;
+    padding: 2rem;
+    user-select: none;
+
+}
+
+input, label
+{
+    position: fixed;
+    top: 30vh;
+    user-select: none;
+}
+
+input
+{
+    visibility: hidden;
+}
+
+body.dark
+{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,33 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(212, 110, 255);
+   color: black;
+   min-height: 100vh;
+
+}
+
+.btn
+{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1.5rem 2rem;
+    margin: 1rem;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+}
+
+.btn:active
+{
+    transform: translate(3px,3px);
+    box-shadow: none;
+}
